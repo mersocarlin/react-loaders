@@ -1,12 +1,7 @@
-# react-loaders
-
-Delightful and performance-focused pure css loading animations made for React around [Loaders.css](https://github.com/ConnorAtherton/loaders.css)
-
-# Usage
-
-```
 var React = require("react");
-var ReactLoaders = require("react-loaders/dist/react-loaders");
+
+
+var ReactLoaders = require("./react-loaders");
 
 
 module.exports = React.createClass({
@@ -22,4 +17,3 @@ module.exports = React.createClass({
   }
 
 });
-```

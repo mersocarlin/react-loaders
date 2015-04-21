@@ -1,21 +1,19 @@
 var React = require("react");
 
-var BallPulse = require("./components/ball-pulse");
-var BallGridPulse = require("./components/ball-grid-pulse");
-var BallClipRotate = require("./components/ball-clip-rotate");
 
-
-require("loaders.css/loaders.css");
+var ReactLoaders = require("./react-loaders");
 
 
 module.exports = React.createClass({displayName: "exports",
+
   render: function() {
     return (
       React.createElement("div", {className: "react-loaders"}, 
-        React.createElement(BallPulse, null), 
-        React.createElement(BallGridPulse, null), 
-        React.createElement(BallClipRotate, null)
+        React.createElement(ReactLoaders, {type: "ball-pulse"}), 
+        React.createElement(ReactLoaders, {type: "ball-grid-pulse"}), 
+        React.createElement(ReactLoaders, {type: "ball-clip-rotate"})
       )
     );
   }
+
 });
