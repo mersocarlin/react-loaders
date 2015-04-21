@@ -1,0 +1,30 @@
+{
+  "name": "react-loaders",
+  "version": "0.0.1",
+  "description": "Delightful and performance-focused pure css loading animations made for React around Loader.css",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mersocarlin/react-loaders"
+  },
+  "keywords": [
+    "css",
+    "loaders",
+    "animation",
+    "animate",
+    "react",
+    "loader",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "author": "Hemerson Carlin",
+  "license": "MIT",
+  "homepage": "https://github.com/mersocarlin/react-loaders",
+  "dependencies": {
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "loaders.css": "git://github.com/mersocarlin/loaders.css#react-loaders"
+  }
+}

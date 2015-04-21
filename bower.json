@@ -1,0 +1,29 @@
+{
+  "name": "react-loaders",
+  "version": "0.0.1",
+  "authors": [
+    "Hemerson Carlin <mersocarlin@gmail.com>"
+  ],
+  "description": "Delightful and performance-focused pure css loading animations made for React around Loader.css",
+  "main": "loaders.css",
+  "keywords": [
+    "css",
+    "loaders",
+    "animation",
+    "animate",
+    "react",
+    "loader",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mersocarlin/react-loaders",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
